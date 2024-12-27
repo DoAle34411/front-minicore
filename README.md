@@ -1,31 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Documentacion Básica Proyecto Mini Core
 
-## Getting Started
+## Iniciar Proyecto
 
-First, run the development server:
+Una vez clonado el repositorio, ejecute los siguientes comandos en la consola:
 
 ```bash
 npm install axios styled-components
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000/home](http://localhost:3000/home) con el navegador para ver la página con los gastos filtrados.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Para editar los componentes, diríjase a cada uno de los listados bajo la carpeta Components o la página principal en App/(content)/home.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Este proyecto depende del API creado en Python en el siguiente enlace [`(https://github.com/DoAle34411/backend-minicore)`](https://github.com/DoAle34411/backend-minicore) para obtener los datos desde una base de datos no relacional.
 
-## Learn More
+## Aprender más
 
-To learn more about Next.js, take a look at the following resources:
+Para aprender más sobre Next js, revisa los siguientes enlaces
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - sobre las características de Next.
+- [Learn Next.js](https://nextjs.org/learn) - un tutorial de Next.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Recomendación Deploy
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+En caso de querer deployar, asegúrate que el siguiente comando no genere errores:
+```bash
+npm run build
+```
